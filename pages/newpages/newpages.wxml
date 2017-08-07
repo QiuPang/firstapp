@@ -1,0 +1,4 @@
+<view class="container">
+  <view class="txtinf">你好</view>
+  <view class="classname">{{info}}</view>
+</view>

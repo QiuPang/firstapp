@@ -1,0 +1,74 @@
+/* pages/news/news.wxss */
+page{
+  height:100%;
+
+}
+.content{
+  height:100%;
+  width:100%;
+
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height:50rpx;
+  background: #edefee;
+  padding:20rpx;
+  
+}
+.nav_title{
+  text-align: center;
+  line-height: 50rpx;
+  border-radius:10rpx;
+  font-family: "微软雅黑";
+  font-size: 28rpx;
+  color:#848484;  
+  width: 100rpx;
+  /* background:red; */
+}
+.hoverNav{
+  color:#476f89;
+  background: #d4e2ef;
+}
+
+/*gundong   */
+.newsPic{
+  display: flex;
+  margin-top:20rpx;
+  font-family: "微軟雅黑";
+  font-size: 24rpx;
+}
+.news{
+  margin-right: 20rpx;
+}
+.newsTitle{
+  text-align: center;
+}
+/*xinweinliebiao   */
+.newsList{
+  display: flex;
+  font-family: "微軟雅黑";
+  margin:20rpx;
+  justify-content: space-between;
+}
+.title_subject{
+  font-size:28rpx;
+  font-weight: 800;
+
+}
+.title{
+  color:#848484;
+  font-size: 24rpx;
+}
+.wiki{
+  color:sandybrown;
+  font-size: 24rpx;
+}
+.pic{
+  margin-right: 10rpx;
+}
+.hr{
+  width:100%;
+  height:2rpx;
+  background: #848484;
+}

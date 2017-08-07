@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/newpages/newpages",
+    "pages/search/search"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2089DC",
+    "navigationBarTitleText": "腾讯新闻",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#670202",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/star.png",
+        "selectedIconPath": "images/star1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search1.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/newpages/newpages",
+        "iconPath": "images/account1.png",
+        "selectedIconPath": "images/account.png",
+        "text": "个人"
+      }
+    ]
+  }
+}
